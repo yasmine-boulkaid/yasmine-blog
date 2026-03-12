@@ -1,0 +1,76 @@
+:root {
+    --primary-color :darkseagreen ;
+    --secondary-color : pink;
+    --accent-color : cornflowerblue;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    /* color: var(--primary-color); */
+}
+
+.header a {
+    color: whitesmoke;
+}
+
+.blog-name a {
+    color: dimgrey;
+}
+
+a:hover {
+    color: pink;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    font-size: 18px;
+    padding: 12px 100px;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent-color);
+    margin-top: auto;
+    padding: 6px;
+    color: whitesmoke;
+}
+
+h1, h2 {
+    align-self: flex-start;
+    color: var(--accent-color);
+}
+
+h1 {
+    color: var(--secondary-color);
+}
