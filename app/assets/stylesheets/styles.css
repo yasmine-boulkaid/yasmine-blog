@@ -30,8 +30,14 @@ a {
     color: whitesmoke;
 }
 
-.blog-name a {
-    color: dimgrey;
+.blog-name {
+    font-weight: bold;
+    color: red  ;
+    /* color: rgb(255, 215, 222); */
+}
+
+a.blog-name.active {
+    color: pink;  
 }
 
 a:hover {

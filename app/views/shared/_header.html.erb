@@ -1,6 +1,6 @@
 <div class="header">
     <%# <div class="blog-name"><a href="/" style="color: pink;">miss poopy pants</a></div> %>
-    <div><%= link_to "miss poopy pants", root_path, class: ["blog_name", ("active" if current_page?(root_path))]%></div>
+    <div><%= link_to "miss poopy pants", root_path, class: ["blog-name", ("active" if current_page?(root_path))]%></div>
     <div class="menu">
         <ul>
             <li><%= link_to "about", about_path, class: ("active" if current_page?(about_path)) %></li>
@@ -8,8 +8,6 @@
             <li><%= link_to "books", books_path, class: ("active" if current_page?(books_path)) %></li>
             <li><%= link_to "travels", travels_path, class: ("active" if current_page?(travels_path)) %></li>
             <li><%= link_to "bingo", bingo_path, class: ["bingo", ("active" if current_page?(bingo_path))] %></li>
-            
-            
         </ul>
     </div>
 </div>    
