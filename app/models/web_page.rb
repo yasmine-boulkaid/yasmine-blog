@@ -1,2 +1,0 @@
-class WebPage < ApplicationRecord
-end

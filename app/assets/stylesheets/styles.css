@@ -74,3 +74,18 @@ h1, h2 {
 h1 {
     color: var(--secondary-color);
 }
+
+.footer-quote {
+    font-size: 14px;
+    color: whitesmoke;
+    
+}
+
+a.footer-quote:hover {
+    color: whitesmoke;
+}
+
+a.bingo:hover {
+    color: gold;
+}
+
