@@ -89,3 +89,10 @@ a.bingo:hover {
     color: gold;
 }
 
+.menu a.active {
+  color: pink;
+}
+
+.menu a.active.bingo {
+    color: gold;
+}

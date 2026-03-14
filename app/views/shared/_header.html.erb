@@ -1,12 +1,15 @@
 <div class="header">
-    <div class="blog-name"><a href="/" style="color: pink;">miss poopy pants</a></div>
+    <%# <div class="blog-name"><a href="/" style="color: pink;">miss poopy pants</a></div> %>
+    <div><%= link_to "miss poopy pants", root_path, class: ["blog_name", ("active" if current_page?(root_path))]%></div>
     <div class="menu">
         <ul>
-            <li><a href="about">about</a></li>
-            <li><a href='movies'>movies</a></li>
-            <li><a href='books'>books</a></li>
-            <li><a href='travels'>travels</a></li>
-            <li><a class='bingo' href='bingo'>bingo</a></li>
+            <li><%= link_to "about", about_path, class: ("active" if current_page?(about_path)) %></li>
+            <li><%= link_to "movies", movies_path, class: ("active" if current_page?(movies_path)) %></li>
+            <li><%= link_to "books", books_path, class: ("active" if current_page?(books_path)) %></li>
+            <li><%= link_to "travels", travels_path, class: ("active" if current_page?(travels_path)) %></li>
+            <li><%= link_to "bingo", bingo_path, class: ["bingo", ("active" if current_page?(bingo_path))] %></li>
+            
+            
         </ul>
     </div>
 </div>    
