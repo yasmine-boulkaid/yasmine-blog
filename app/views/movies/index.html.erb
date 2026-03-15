@@ -1,0 +1,8 @@
+<h1>movies? i'm a little lost</h1>
+
+<% @movies.each do |movie| %>
+    <div>
+        <h2><%= link_to movie.title, movie %></h2>
+        
+    </div>
+<% end %>

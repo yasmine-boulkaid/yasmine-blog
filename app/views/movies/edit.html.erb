@@ -1,0 +1,5 @@
+<h1>edit movie</h1>
+
+<%= render partial: "form", locals: {movie: @movie} %>
+
+<%= button_to "delete", @movie, method: :delete, data: {turbo_confirm: "r u sure?"} %>

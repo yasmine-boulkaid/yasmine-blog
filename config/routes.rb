@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get "bingo", to: "pages#bingo"
 
   get "movies/2026", to: "movies#movies_2026"
-
+  resources :movies
 
   # Defines the root path route ("/")
   root "pages#index"

@@ -56,9 +56,9 @@ a:hover {
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    padding: 80px;
+    /* padding: 0px 80px; */
 }
 
 .footer {
@@ -101,4 +101,12 @@ a.bingo:hover {
 
 .menu a.active.bingo {
     color: gold;
+}
+
+.form {
+    text-transform: lowercase;
+}
+
+.main-body-padding {
+    padding: 80px;
 }

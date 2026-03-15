@@ -31,7 +31,9 @@
     <%= render "shared/header" %>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
-    <%= yield %>
+    <div class='main-body-padding'>
+      <%= yield %>  
+    </div>
     <%= render "shared/footer" %>
   </body>
 </html>
